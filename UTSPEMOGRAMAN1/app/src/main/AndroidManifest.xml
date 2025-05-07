@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.stickerku"> <!-- Ganti sesuai nama paket aplikasimu -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UTSPM1"
+        tools:targetAi="31">
+
+    <activity android:name="com.example.utspm1.activity_gallery"/>
+    <activity android:name="com.example.utspm1.LoginActivity"/>
+    <activity android:name="com.example.utspm1.RegisterActivity"/>
+    <activity android:name="com.example.utspm1.SplashScreenActivity"/>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter>
+
+    </activity>
+
+</application>
+
+    </manifest>
